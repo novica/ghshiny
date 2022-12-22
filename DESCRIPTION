@@ -1,0 +1,27 @@
+Package: ghshiny
+Title: A shiny app to access github api
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Novica",
+           family = "Nakov",
+           role = c("aut", "cre"),
+           email = "nnovica@gmail.com")
+Description: Shiny app to access the github api that uses the ghapi package.
+License: MIT + file LICENSE
+Imports: 
+    config (>= 0.3.1),
+    DT,
+    golem (>= 0.3.3),
+    pkgload,
+    shiny (>= 1.7.2),
+    ghapi
+Remotes:
+  novica/ghapi
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
